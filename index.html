@@ -303,7 +303,7 @@ function runDaily(data){
   if(data.lastDate===today()&&data.todayWords&&data.todayWords.length){
     renderCards(data.todayWords);
     moreBtn.style.display='block';
-    setStatus("Today's words are ready. Want more? Click below!",'ok');
+    setStatus("Today's words are ready. Want more? Click!",'ok');
     return;
   }
 
